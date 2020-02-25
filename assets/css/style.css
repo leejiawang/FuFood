@@ -16,6 +16,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: .07em;
+    background-color: #333;
 }
 
 section {
@@ -30,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 a {
-    color: #6d9eeb;
+    color: #cc4125;
 }
 
 dl, ol, ul {
@@ -49,14 +50,14 @@ dl, ol, ul {
     user-select:none;
     margin: 0;
 
-    background-color: #ffffff;
+    background-color: #444;
     line-height: 45px;
     display: inline-block;
     text-align: center;
     position: fixed;
     top: 0; 
     padding: 0px 0px;
-    z-index: 10;
+    z-index: 10000;
     width: 100%;
     border-bottom: 0px solid #ced4da;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.05);
@@ -65,7 +66,7 @@ dl, ol, ul {
 .navbar a {
     text-decoration: none !important;
     font-size: 15px;
-    color: #666666;
+    color: #999;
     font-weight: 500;
 }
 
@@ -101,7 +102,7 @@ dl, ol, ul {
 }
 
 .nav-link-active {
-    color: #202020 !important;
+    color: #e36248 !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     display: inline-block;
@@ -190,7 +191,7 @@ dl, ol, ul {
 
 .blue-btn:hover {
     text-decoration: none;
-    background-color: #6d9eeb;
+    background-color: #cc4125;
     color: #ffffff;
 }
 
@@ -221,7 +222,7 @@ dl, ol, ul {
     right: 15%;
     bottom: 20px;
     left: 15%;
-    z-index: 10;
+    z-index: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
@@ -242,9 +243,7 @@ dl, ol, ul {
 .fillet-box {
     background: #ffffff;
     font-weight: 300;
-    border: 1px solid #ced4da;
-    border-radius: 6px;
-    max-width: 600px;
+    border-radius: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0px 0px;
@@ -252,7 +251,7 @@ dl, ol, ul {
 }
 
 .fillet-box:hover {
-    box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
 }
 
@@ -265,14 +264,18 @@ dl, ol, ul {
     background-size: cover;
     width: 100%;
     height: auto;
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;
+    border-radius: 7px;
     max-width: 600px;
+}
+
+.v-text {
+   text-align: center;
+   font-size: 12px;
 }
 
 .fillet-box-text {
     text-align: left !important;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: .01em;
     padding: 13px 15px;
