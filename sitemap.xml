@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://fufood.cn/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://fufood.cn/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://fufood.cn/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
